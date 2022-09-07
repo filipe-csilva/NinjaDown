@@ -1,0 +1,77 @@
+@charset "uft-8";
+/* CSS DOCUMET */
+/* PADRAO */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.box{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        border-radius: 15px;
+        width: 20%;
+        color: white;
+}
+div.result{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        border-radius: 15px;
+        width: 20%;
+        text-align: center;
+}
+fieldset{
+    border: 3px solid #FF0033;
+    padding: 5%;
+}
+legend{
+    border: 1px solid #FF0033;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF0033;
+    border-radius: 8px;
+}
+div.inputBox {
+    position: relative;
+}
+input.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+input.inputUser:focus ~ label.labelInput, input.inputUser:valid ~ label.labelInput{
+    top: -20px;
+    font-size: 12px;
+}
+label.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+input.submit{
+    background-color: #FF0033;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}

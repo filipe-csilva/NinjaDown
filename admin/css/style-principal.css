@@ -1,0 +1,88 @@
+@charset "uft-8";
+/* CSS DOCUMET */
+/* PADRAO */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table.principal{
+    width: 100%;
+	margin: 0;
+}
+th.destaque{
+    width: 45%;
+}
+th.add{
+    width: 35%;
+}
+th.banner{
+    width: 20%;
+}
+table.noticia{
+    width: 100%;
+}
+th.not1{
+    width: 48%;
+}
+th.div{
+    width: 2%;
+}
+th.not2{
+    width: 48%;
+}
+table.noticia{
+    width: 100%;
+}
+th.notinterior{
+    font-size: 12px;
+}
+hr.div{
+    width: 2px;
+    height: 9vh;
+}
+th.notcab{
+    font-size: 12px;
+}
+table.programas{
+    width: 100%;
+}
+th.progfoto{
+    width: 15%;
+}
+th.prognome{
+    width: 85%;
+    height: 33%;
+}
+th.progdesc{
+    width: 85%;
+    height: 33%;
+    font-size: 12px;
+}
+th.proginf{
+    width: 25%;
+    height: 33%;
+    font-size: 10px;
+}
+br.pulo{
+    font-size: 2px;
+}
+img.fotoprog{
+    width: 50px;
+    height: 50px;
+}
+img.fotosist{
+    width: 11px;
+    height: 11px;
+    margin-top: -4px;
+}
+th.if{
+    font-size: 12px;
+}
+img.dirbanner{
+	margin-top: -13px;
+}

@@ -1,0 +1,12 @@
+@charset "uft-8";
+/* CSS DOCUMET */
+/* PADRAO */
+body{
+    color: white;
+    text-align: center;
+}
+table.table-bg{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}

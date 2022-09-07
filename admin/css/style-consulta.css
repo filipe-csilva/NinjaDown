@@ -1,0 +1,15 @@
+@charset "uft-8";
+/* CSS DOCUMET */
+/* PADRAO */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table.principal{
+    width: 100%;
+}
